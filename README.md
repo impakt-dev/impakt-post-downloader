@@ -13,7 +13,9 @@ This is a Streamlit app that:
 
 First, install the required dependencies:
 
+```
 pip install streamlit requests
+```
 
 ## Usage
 
@@ -28,12 +30,11 @@ pip install streamlit requests
 
 ## Features
 
-✅ Fetches latest media posts from Impakt
-✅ Downloads in parallel (10 at a time)
-✅ Uses Media.ext for correct file types
-✅ Ensures unique filenames
-✅ Provides ZIP file for bulk download
-✅ Scrollable UI log for real-time updates
+✅ Fetches latest media posts from Impakt<br/>
+✅ Downloads in parallel (10 at a time)<br/>
+✅ Uses Media.ext for correct file types<br/>
+✅ Ensures unique filenames<br/>
+✅ Provides ZIP file for bulk download<br/>
 
 ## Requirements
 
