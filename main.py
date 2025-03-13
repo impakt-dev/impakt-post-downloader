@@ -56,9 +56,9 @@ if st.button("Fetch Posts"):
     def get_unique_filename(base_name, extension, folder):
         """Ensure unique filenames."""
         counter = 1
-        new_name = f"{base_name}{extension}"
+        new_name = f"{base_name}.{extension}"
         while os.path.exists(os.path.join(folder, new_name)):
-            new_name = f"{base_name}_{counter}{extension}"
+            new_name = f"{base_name}_{counter}.{extension}"
             counter += 1
         return new_name
 
